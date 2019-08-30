@@ -1,6 +1,7 @@
 # Tutorial: Adding say-editor to your Ember.js app.
 This section covers the basics on how to add say-editor as an add-on to an Ember app. The editor will implement one plugin, the `@lblod/ember-rdfa-editor-template-variables-manager-plugin`.
 This howto should cover the basics to get you started.
+You'll also be able to run the tutorial as an Ember.js app, the instructions to do so are at the end of this document.
 
 ## Setting up the editor
 To install the add-on run:
@@ -220,7 +221,7 @@ export default Route.extend({
 ```
 We'll leave tidbits of the HTML context for what it is, please refer to the [documentation of the plugin ](https://github.com/lblod/ember-rdfa-editor-template-variables-manager-plugin) for all required info.
 
-Now navigate to you your route, and have some fun!
+Now navigate to `/editor/new-document`, and have some fun!
 
 # Running the tutorial
 ## Prerequisites
